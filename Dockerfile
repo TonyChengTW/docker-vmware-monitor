@@ -5,6 +5,5 @@ EXPOSE 8083 8086 8086/udp
 
 # Startup
 WORKDIR /root
-RUN /usr/sbin/cron
 
 ENTRYPOINT [ "/bin/bash", "/root/startup.sh" ]
