@@ -8,10 +8,10 @@ This image contains:
 
 ## Build this Docker Image
 ```bash 
-docker build -t tonychengtw/vmware-monitor:0.2 ./
+docker build -t tonychengtw/vmware-monitor:1.0 ./
 ```
 
 ## Run a Samba instance
 ```bash
-docker run -tid --name vsphere-monitor -v /opt/influxdb:/var/opt/influxdb -p 18083:8083 -p 18086:8086  tonychengtw/vmware-monitor:0.1
+docker run -tid --name vsphere-monitor -v /opt/influxdb:/var/opt/influxdb -p 18083:8083 -p 18086:8086  tonychengtw/vmware-monitor:0.9
 ```
